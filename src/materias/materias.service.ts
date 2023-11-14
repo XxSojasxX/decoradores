@@ -11,6 +11,7 @@ export class MateriasService {
     { id: 1, nombre: 'Matematica' },
     { id: 2, nombre: 'Base de Datos' },
     { id: 3, nombre: 'Programacion Web' },
+    { id: 4, nombre: 'Programacion Movil'}
   ];
 
   @Get()
