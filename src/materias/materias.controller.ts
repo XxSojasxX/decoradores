@@ -7,10 +7,10 @@ import { UpdateMateriaDto } from './dto/update-materia.dto';
 export class MateriasController {
   constructor(private readonly materiasService: MateriasService) {}
 
-  /*@Post()
-  create(@Body() createMateriaDto: CreateMateriaDto) {
-    return this.materiasService.create(createMateriaDto);
-  }*/
+  @Post()
+  create(@Body() datos: CreateMateriaDto) {
+    return datos;
+  }
 
   @Get()
   findAll() {
